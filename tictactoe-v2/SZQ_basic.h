@@ -10,8 +10,8 @@
 
 
 #define N 3
-#define P_pawn 'o' //玩家棋子 o
-#define C_pawn 'X' //电脑棋子 X
+#define P_pawn 'X' //玩家棋子 X
+#define C_pawn 'O' //电脑棋子 O
 
 char** creatQP(); //创建棋盘
 void printQP(char** QP); //打印棋盘

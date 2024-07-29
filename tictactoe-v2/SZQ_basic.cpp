@@ -30,7 +30,7 @@ void printQP(char** QP) {
 	}
 
 	Serial.printf("|_____________________________    棋盘    ___________________________|\n");
-	Serial.printf("\t\t 行号→  1   2   3\t\t玩家棋子：“o”\n\t\t 列号↓\t\t\t\t电脑棋子：“X”\n");
+	Serial.printf("\t\t 行号→  1   2   3\t\t玩家棋子：“X”\n\t\t 列号↓\t\t\t\t电脑棋子：“O”\n");
 	Serial.printf("\t\t       |---|---|---|\n");
 	for (i = 0; i < N; i++) {
 		Serial.printf("\t\t      %d|", i + 1);
